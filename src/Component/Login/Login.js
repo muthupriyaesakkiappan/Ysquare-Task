@@ -46,10 +46,11 @@ export function Login() {
            <div className=' container-fluid m-0 p-0'>
                <div className='logdiv '>
                     <h1 className='stutexth text-center bg-info sticky-top'>Login</h1>
-                <form className='stuform container text-center mt-5'>
-                    <label className='stulabel'>Username:</label><br/>
-                      <input type='text' className='stuinput' id='user' name='name' placeholder='Enter Username' required=""/><br/>
-                         <label className='stulabel'>Password</label><br/>                         <input type='text' className='stuinput ' id='pass' name='gen' placeholder="Enter Password" /><br/>
+                <form className='userform container text-center mt-5'>
+                    <label className='labelinfo'>Username:</label><br/>
+                      <input type='text' className='details' id='user' name='name' placeholder='Enter Username' required=""/><br/>
+                         <label className='labelinfo'>Password</label><br/>                         
+                         <input type='text' className='details ' id='pass' name='gen' placeholder="Enter Password" /><br/>
                         
                          <button type='button' className='stubutton rounded-pill m-3 btn__submit' onClick={login}>Login</button>
                    </form>
